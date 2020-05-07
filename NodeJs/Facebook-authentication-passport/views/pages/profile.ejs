@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>  
+  <title>Facebook Node Authentication</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <style>
+    .card:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      margin-bottom: 54px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Node Authentication</a>
+      <a href="/logout" class="right">Logout</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <div class="row center">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content blue lighten-3">
+              <span class="card-title white-text"><strong><i class="large material-icons">person</i>
+                </strong></span>
+            </div>
+            <div class="card-action">
+              <h5><b><%= user.displayName %></b></h5>
+              <p><strong>Facebook id</strong>: <%= user.id %></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
