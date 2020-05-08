@@ -17,7 +17,7 @@ router.get('/error', isLoggedIn, function (req, res) {
 });
 
 router.get('/auth/facebook', passport.authenticate('facebook', {
-  scope: ['public_profile', 'email', 'picture', 'first_name', 'last_name', 'user_birthday']
+  scope:['public_profile', 'email']
 }));
 
 router.get('/auth/facebook/callback',
