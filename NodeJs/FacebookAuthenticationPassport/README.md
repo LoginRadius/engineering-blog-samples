@@ -31,13 +31,14 @@ module.exports = {
   }
 }
 
-```
+``````
 5. Then run the follwoing command in your terminal
 
 ```
 npm start
 ```
-6. Open the link ["http://localhost:3000"]
+6. Open the link [http://localhost:3000](http://localhost:3000)
+
 
 
 
