@@ -1,0 +1,30 @@
+<!-- views/success.ejs -->
+<!doctype html>
+<html>
+  <head>
+    <title>Google SignIn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- load bulma css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load fontawesome -->
+      <style>
+          body        { padding-top:70px; }
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+          <h1 class="text-success  text-center"><span class="fa fa-user"></span> Profile Information</h1>
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="well">
+                        <p>
+                            <strong>Id</strong>: {{.UserID}}<br>
+                            <strong>Email</strong>: {{.Email}}<br>
+                            <strong>Name</strong>: {{.Name}}
+                        </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
