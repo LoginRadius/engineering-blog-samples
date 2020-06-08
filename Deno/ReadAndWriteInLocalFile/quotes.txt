@@ -1,0 +1,9 @@
+Don't worry about what anybody else is going to do. The best way to predict the future is to invent it. - Alan Kay
+Premature optimization is the root of all evil in programming. - Donald Knuth
+Clarity and brevity sometimes are at odds. When they are, I choose clarity.  - Jacob Kaplan-Moss
+Optimism is an occupational hazard of programming; feedback is the treatment. - Kent Beck
+A lot of times, people don't know what they want until you show it to them.  - Steve Jobs
+Nine people can't make a baby in a month. - Fred Brooks
+If you ever talk to a great programmer, you'll find they know their tools like an artist knows their paintbrushes. - Bill Gates
+A clever person solves a problem. A wise person avoids it. - Albert Einstein
+Controlling complexity is the essence of computer programming. - Brian Kernigan
