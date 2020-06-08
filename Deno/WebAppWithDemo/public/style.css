@@ -1,0 +1,20 @@
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 210px;
+  color: #0d8dcf;
+  border: solid black 2px;
+}
+
+input[type="button"] {
+  background-color: #0d8dcf;
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+}
+
+input[type="text"] {
+  background-color: white;
+  border: solid black 2px;
+  width: 100%;
+}
