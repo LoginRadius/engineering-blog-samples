@@ -1,0 +1,15 @@
+{
+  "name": "first-pwa-app",
+  "version": "1.0.0",
+  "description": "This is the first PWA example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "Mohammed Modi",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
