@@ -1,0 +1,31 @@
+<div class="page-content page-container" id="page-content">
+  <div class="padding">
+    <div class="row container d-flex justify-content-center">
+      <div class="col-lg-12">
+        <div class="card px-3">
+          <div class="card-body">
+            <h4 class="card-title">Todo list</h4>
+            <div class="add-items d-flex"> 
+              <form [formGroup]="addForm" (ngSubmit)="onSubmit(addForm.value)">
+                <input type="text" formControlName="title" class="form-control todo-list-input" placeholder="What do you need to do today?"><br/>
+                <button
+                class="add btn btn-primary font-weight-bold todo-list-add-btn">Add</button> 
+              </form>
+            </div>
+            <pre>{{(todoList$ | async) ?. todoList | json }}</pre>
+            <div class="list-wrapper">
+              <ul class="d-flex flex-column-reverse todo-list">
+                <li *ngFor="let todo of (todoList$ | async) ?. todoList" [ngClass]="{'completed': todo.is_done}">
+                  <div class="form-check"> 
+                    <label class="form-check-label"> 
+                      <input (click)="markDone(todo.id, todo.is_done)" class="checkbox" type="checkbox" [checked]="todo.is_done">{{todo.title}} <i class="input-helper"></i></label> 
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
