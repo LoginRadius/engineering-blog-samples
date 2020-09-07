@@ -1,0 +1,79 @@
+version: '3'
+services:
+    mqserver:
+        image: softwaremill/elasticmq
+        ports:
+            - '9324:9324'
+
+    mongodbdb: 
+        depends_on: 
+            - mqserver
+        image: mongo
+        container_name: mongo
+        volumes:
+            - /data/db:/mongodata
+        ports:
+            - '27017:27017'
+
+    apiserver:
+        restart: always
+        depends_on: 
+            - mqserver
+            - mongodbdb
+
+        build:
+            dockerfile: Dockerfile
+            context: ../fs-express-api/.
+        volumes:
+            - /app/node_modules
+        environment: 
+            - NODE_ENV=production
+            - AWS_SQS_URL=http://mqserver:9324/
+            - AWS_SQS_FQ_URL=http://mqserver:9324/queue/fsqueue
+            - AWS_ACCESS_KEY=na
+            - AWS_SECRET_ACCESS_KEY=na
+            - AWS_REGION=REGION
+            - QUEUE_NAME=fsqueue
+            - MONGODB_CONNECTION=mongodb://mongo:27017/fsorder
+            - API_APP_PORT=5000
+        ports:
+            - '5000:5000'
+
+
+    pollingmod:
+        restart: always
+        depends_on: 
+            - mqserver
+            - mongodbdb
+        build:
+            dockerfile: Dockerfile
+            context: ../polling-mod/
+        volumes:
+            - /app/node_modules
+        environment: 
+            - AWS_QUEUE_URL=http://mqserver:9324/queue/fsqueue
+            - AWS_ACCESS_KEY=na
+            - AWS_SECRET_ACCESS_KEY=na
+            - AWS_REGION=REGION
+            - MONGODB_CONNECTION=mongodb://mongo:27017/fsorder   
+
+    frontend:
+        build:
+            dockerfile: Dockerfile
+            context: ../fs-frontend
+        volumes:
+            - /app/node_modules
+            - ../fs-frontend:/app
+        stdin_open: true
+        ports:
+            - '3000:3000'
+            
+    gw:
+        depends_on: 
+            - frontend
+        restart: always
+        build: 
+            dockerfile: Dockerfile
+            context: ../gw-nginx-conf
+        ports:
+            - '5500:80'
