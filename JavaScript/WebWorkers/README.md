@@ -1,6 +1,6 @@
 ### Web Workers: A Simple Introduction
 
-##### This is the code repository for the blog post published on [LoginRadius Engineering Blog](https://www.loginradius.com/engineering/blog/web-workers-a-simple-introduction/).
+##### This is the code repository for the blog post published on [LoginRadius Engineering Blog](https://www.loginradius.com/engineering/blog/adding-multi-threading-to-javascript-using-web-workers/).
 
 #### Prerequisites
 
