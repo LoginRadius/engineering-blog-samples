@@ -1,7 +1,7 @@
 // addEventListener is directly accessible in worker file
-addEventListener("message", (e) => {
+addEventListener("message", (event) => {
   // extract person passed from main script
-  let person = e.data;
+  let person = event.data;
   registerMember(person);
 });
 

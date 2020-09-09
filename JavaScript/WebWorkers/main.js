@@ -22,7 +22,7 @@ const persons = [
 ];
 
 // Our club container
-const club = document.getElementById("root");
+const club = document.getElementById("club");
 let worker;
 
 function entry() {
@@ -33,8 +33,8 @@ function entry() {
     if (!isMember) {
       worker = new Worker("worker.js");
       worker.postMessage(name);
-      worker.addEventListener("message", (e) => {
-        if (e.data) {
+      worker.addEventListener("message", (event) => {
+        if (event.data) {
           club.appendChild(listItem);
         }
       });

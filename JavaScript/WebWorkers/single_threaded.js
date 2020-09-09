@@ -22,7 +22,7 @@ const persons = [
 ];
 
 // Our club container
-const club = document.getElementById("root");
+const club = document.getElementById("club");
 let worker;
 
 function entry() {
