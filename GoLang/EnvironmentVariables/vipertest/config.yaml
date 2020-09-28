@@ -1,0 +1,10 @@
+# config.yaml
+SITE:
+  TITLE: Test Site
+
+DB:
+  HOST: "localhost"
+  PORT: "27017"
+  USERNAME: "admin"
+  PASWORD: "password"
+  NAME: "testdb"
