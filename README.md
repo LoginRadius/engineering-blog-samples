@@ -10,11 +10,11 @@ This repository contains the sample code used in the engineering blogs written f
 
 ## About LoginRadius ##
 
-LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust.  Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations.
+LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust. Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations.
 
 ## How to use ##
 
-The root folder contains langauge specific folder for code samples. You can browse to partciular directory and access the code sample as per your need
+The root folder contains langauge specific folder for code samples.You can browse to partciular directory and access the code sample as per your need
 
 e.g.
 
