@@ -14,7 +14,7 @@ LoginRadius empowers businesses to deliver a delightful customer experience and 
 
 ## How to use ##
 
-The root folder contains langauge specific folder for code samples. You can browse to partciular directory and access the code sample as per your need
+The root folder contains language specific folder for code samples. You can browse to particular directory and access the code sample as per your need
 
 e.g.
 
@@ -24,14 +24,14 @@ cd Deno/
 ```
 
 In Deno folder you can find a number of project samples.
-If you want to check with sample how to create Rest API in Deno, please move to theat directory. 
+If you want to check with sample how to create Rest API in Deno, please move to thatt directory. 
 
 ```
 cd  RestAPIWithDeno/
 
 ```
 
-Here you can find the instructsion to run that sample project
+Here you can find the instruction to run that sample project
 
 
 
