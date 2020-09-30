@@ -1,8 +1,8 @@
 # Engineering-blog-samples
 
-## About Respository ##
+## About Repository ##
 
-Engineers at LoginRadius are not limited to develop, test, deploy, and maintain the **LoginRadius Identity Platform**. They are highly motivated to build and learn something new every day. As a part of our Giving Back To Community initiative, we aim to share the same with the developers worldwide via our [Engineering Blogs](https://www.loginradius.com/engineering/blog).
+Engineers at LoginRadius are not limited to developing, testing, deploying, and maintaining the **LoginRadius Identity Platform**. They are highly motivated to build and learn something new every day. As a part of our Giving Back To Community initiative, we aim to share the same with the developers worldwide via our [Engineering Blogs](https://www.loginradius.com/engineering/blog).
 
 This repository contains the sample code used in the engineering blogs written for the initiative mentioned above.
 
@@ -24,14 +24,14 @@ cd Deno/
 ```
 
 In Deno folder you can find a number of project samples.
-If you want to check with sample how to create Rest API in Deno, please move to theat directory. 
+If you want to check with sample how to create Rest API in Deno, please move to that directory. 
 
 ```
 cd  RestAPIWithDeno/
 
 ```
 
-Here you can find the instructsion to run that sample project
+Here you can find the instructions to run that sample project.
 
 
 
