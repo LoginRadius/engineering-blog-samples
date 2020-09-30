@@ -10,7 +10,7 @@ This repository contains the sample code used in the engineering blogs written f
 
 ## About LoginRadius ##
 
-LoginRadius empowers businesses to deliver a delightful customer experience and win customer trust.  Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations.
+LoginRadius is focused to empower businesses to deliver a delightful customer experience and win customer trust.  Using the LoginRadius Identity Platform, you can offer a streamlined registration and login processes while protecting customer accounts and complying with data privacy regulations.
 
 ## How to use ##
 
