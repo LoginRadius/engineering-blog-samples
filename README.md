@@ -34,4 +34,8 @@ cd  RestAPIWithDeno/
 Here you can find the instructsion to run that sample project
 
 
+## Some of Our Blogs ##
+[Unit Testing For Dummies](https://www.loginradius.com/engineering/blog/unit-testing-for-dummies/)
+[Hacktoberfest 2020](https://www.loginradius.com/engineering/blog/loginradius-opensource-repos-for-hacktoberfest-2020/)
+
 
