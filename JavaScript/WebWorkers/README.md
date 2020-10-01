@@ -4,7 +4,7 @@
 
 #### Prerequisites
 
-- Basic Understanding JavaScript.
+- Basic Understanding Of JavaScript.
 
 
 #### How to Start
