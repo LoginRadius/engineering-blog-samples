@@ -31,7 +31,7 @@ cd  RestAPIWithDeno/
 
 ```
 
-Here you can find the instructsion to run that sample project
+Here you can find the instructions to run that sample project
 
 
 
