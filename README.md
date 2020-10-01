@@ -1,11 +1,10 @@
-# Engineering-blog-samples
+# Engineering Blog Samples
 
 ## About Respository ##
 
 Engineers at LoginRadius are not limited to develop, test, deploy, and maintain the **LoginRadius Identity Platform**. They are highly motivated to build and learn something new every day. As a part of our Giving Back To Community initiative, we aim to share the same with the developers worldwide via our [Engineering Blogs](https://www.loginradius.com/engineering/blog).
 
 This repository contains the sample code used in the engineering blogs written for the initiative mentioned above.
-
 
 
 ## About LoginRadius ##
@@ -19,7 +18,7 @@ The root folder contains langauge specific folder for code samples. You can brow
 e.g.
 
 ```
-cd Deno/
+cd deno/
 
 ```
 
