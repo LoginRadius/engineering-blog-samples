@@ -19,6 +19,42 @@ const persons = [
     name: "Daisy",
     isMember: true,
   },
+  {
+    name: "ravi",
+    isMember: false,
+  },
+  {
+  name: "john",
+    isMember: false,
+  },
+  {
+    name: "Puneet Singh",
+    isMember: true,
+  },
+  {
+    name: "Hemant Manwani",
+    isMember: true,
+  },
+  {
+    name: "Sudhanshu Pandey",
+    isMember: true,
+  },
+  {
+    name: "Nick Chim",
+    isMember: true,
+  },
+  {
+    name: "Chris Yee",
+    isMember: true,
+  },
+  {
+    name: "Hridayesh Sharma",
+    isMember: true,
+  },
+    
+  
+  
+  
 ];
 
 // Our club container
