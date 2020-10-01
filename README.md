@@ -24,14 +24,14 @@ cd Deno/
 ```
 
 In Deno folder you can find a number of project samples.
-If you want to check with sample how to create Rest API in Deno, please move to theat directory. 
+If you want to check with sample how to create Rest API in Deno, please move to that directory and follow up the steps. 
 
 ```
 cd  RestAPIWithDeno/
 
 ```
 
-Here you can find the instructsion to run that sample project
+Here you can find the instructions to run that sample project
 
 
 
