@@ -14,7 +14,7 @@ LoginRadius empowers businesses to deliver a delightful customer experience and 
 
 ## How to use ##
 
-The root folder contains langauge specific folder for code samples. You can browse to partciular directory and access the code sample as per your need
+The root folder contains language specific folder for code samples. You can browse to partciular directory and access the code sample as per your need
 
 e.g.
 
@@ -31,7 +31,7 @@ cd  RestAPIWithDeno/
 
 ```
 
-Here you can find the instructsion to run that sample project
+Here you can find the instruction to run that sample project
 
 
 
