@@ -16,7 +16,7 @@ LoginRadius empowers businesses to deliver a delightful customer experience and 
 
 The root folder contains langauge specific folder for code samples. You can browse to partciular directory and access the code sample as per your need
 
-e.g.
+For e.g.
 
 ```
 cd Deno/
