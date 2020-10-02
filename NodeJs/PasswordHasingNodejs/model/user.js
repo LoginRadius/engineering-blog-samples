@@ -1,16 +1,25 @@
 // Importing modules 
-const mongoose = require('mongoose'); 
+const mongoose = require('mongoose');
+const validator = require('validator');
 var crypto = require('crypto'); 
   
 // Creating user schema 
-const UserSchema = mongoose.Schema({ 
+const UserSchema = new mongoose.Schema({ 
     name : { 
         type : String, 
-        required : true
+        required : true,
+        trim : true
     }, 
     email : { 
         type : String, 
-        required : true
+        required : true,
+        unique : true,
+        trim : true,
+        validate(value) {
+            if (!validator.isEmail(value)) {
+                throw new Error("Email is not valid")
+            }
+        }
     }, 
     hash : String, 
     salt : String 
@@ -48,4 +57,5 @@ UserSchema.methods.validPassword = function(password) {
 }; 
   
 // Exporting module to allow it to be imported in other files 
-const User = module.exports = mongoose.model('User', UserSchema); 
+const User = mongoose.model('User', UserSchema);
+module.exports User;
