@@ -14,7 +14,7 @@ LoginRadius empowers businesses to deliver a delightful customer experience and 
 
 ## How to use ##
 
-The root folder contains langauge specific folder for code samples. You can browse to particular directory and access the code sample as per your need
+The root folder contains language specific folder for code samples. You can browse to particular directory and access the code sample as per your need
 
 e.g.
 
