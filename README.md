@@ -15,7 +15,8 @@ LoginRadius empowers businesses to deliver a delightful customer experience and 
 
 First, clone this repository to your desired location in the PC using the following command : 
 
-``` git clone https://github.com/LoginRadius/engineering-blog-samples.git
+```bash
+git clone https://github.com/LoginRadius/engineering-blog-samples.git
 ```
 
 
@@ -23,16 +24,15 @@ The root folder contains the language specific folder for code samples. You can 
 
 For e.g.
 
-```
+```bash
 cd Deno
-ls
 
 ```
 This command in the terminal would open the Deno folder and list all the subfolders. This is where you can find a number of project samples.   
 
 Now, if you want to check with sample how to create Rest API in Deno, please move to that directory :
 
-```
+```bash
 cd  RestAPIWithDeno
 
 ```
@@ -41,6 +41,6 @@ Here you can find the instructions to run that sample project in Deno.
 
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   
-Login Radius is under the [MIT License](/LICENSE)
+LoginRadius is under the [MIT License](/LICENSE)
 
 
