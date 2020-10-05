@@ -1,21 +1,21 @@
-## Facebook login implementaion using passport and node JS.
+## Facebook login implementaion using passport and node JS
 
 This is a sample project to start with Facebook authentication using nodeJS. 
 
 ### Prerequisites 
 
-1. Install Node and NPM
-2. Basic knowledge of HTML, JS
+1. Install Node and NPM.
+2. Basic knowledge of HTML, JS.
 
 ### How to start 
 
-1. Clone the repository
-2. Go to the directory `FacebookAuthenticationPassport`
+1. Clone the repo.
+2. Go to the directory `FacebookAuthenticationPassport`.
 
 ```
 cd FacebookAuthenticationPassport\
 ```
-3. Enter the follwoing command 
+3. Enter the follwoing command:
 
 ```
 npm install
@@ -32,12 +32,12 @@ module.exports = {
 }
 
 ``````
-5. Then run the follwoing command in your terminal
+5. Then run the follwoing command in your terminal.
 
 ```
 npm start
 ```
-6. Open the link [http://localhost:3000](http://localhost:3000)
+6. Open the link [http://localhost:3000](http://localhost:3000).
 
 
 
