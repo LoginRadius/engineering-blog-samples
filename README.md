@@ -13,14 +13,14 @@ LoginRadius empowers businesses to deliver a delightful customer experience and 
 
 ## How to use 
 
-First, clone this repository to your desired location in the PC using the following command : 
+Step 1: clone this repository to your desired location in the PC using the following command : 
 
 ```bash
 git clone https://github.com/LoginRadius/engineering-blog-samples.git
 ```
 
 
-The root folder contains the language specific folder for code samples. You can browse to particular directory and access the code sample as per your need
+Step 2: The root folder contains the language specific folder for code samples. You can browse to particular directory and access the code sample as per your need
 
 For e.g.
 
@@ -30,7 +30,7 @@ cd Deno
 ```
 This command in the terminal would open the Deno folder and list all the subfolders. This is where you can find a number of project samples.   
 
-Now, if you want to check with sample how to create Rest API in Deno, please move to that directory :
+Step 3: Now, if you want to check with sample how to create Rest API in Deno, please move to that directory :
 
 ```bash
 cd  RestAPIWithDeno
