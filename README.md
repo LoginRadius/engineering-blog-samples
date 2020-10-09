@@ -1,11 +1,6 @@
-<h1 align="center">
-  <br>
-  <a href="https://www.loginradius.com/engineering/blog"><img src="https://user-images.githubusercontent.com/28962172/95194145-5daa8800-07ee-11eb-9bd1-2e0a6985e2a5.png"></a>
-</h1>
+# Code Samples of LoginRadius Engineering Blog
 
-
-<h3 align="center">Code Samples of LoginRadius Engineering Blog :pencil:</h3>
-
+## Table of Contents
 <ul>
   • <a href="#about">About</a><br>
   • <a href="#loginradius">LoginRadius</a><br>
