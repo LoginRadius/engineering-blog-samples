@@ -1,0 +1,15 @@
+{
+  "name": "upload-files-node-and-multer",
+  "version": "1.0.0",
+  "description": "Upload files using NodeJs and Multer",
+  "main": "index.js",
+  "author": "Gabriel Rabelo <@gabrielrab>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
