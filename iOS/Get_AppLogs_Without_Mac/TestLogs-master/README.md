@@ -67,4 +67,5 @@ Call allOptions() from IBAction pressForLogs. Above functions will open Activity
 
 Voila!
 
-For more information visit our [documentation](https://www.loginradius.com/engineering/blog/how-to-obtain-ios-application-logs-without-mac/)
+For more information visit our ![documentation](https://www.loginradius.com/engineering/blog/how-to-obtain-ios-application-logs-without-mac/)
+You may also refer to our Youtube Video for better understanding ![Video](https://www.youtube.com/watch?v=KTnFtIvoDiI)
