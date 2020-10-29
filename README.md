@@ -1,11 +1,11 @@
 # Code Samples of LoginRadius Engineering Blog
-
+# LoginRadius is a Customer Identity Management platform offering Customer Registration Services, Profile Data Storage, SSO, and more.
 ## Table of Contents
 <ul>
   • <a href="#about">About</a><br>
   • <a href="#loginradius">LoginRadius</a><br>
   • <a href="#howtouse">How To Use</a><br>
-  • <a href="#license">License</a><br>
+  • <a href="#License">License</a><br>
 </ul>
 
 <h2 id="about"> About Repository</h2>
@@ -28,7 +28,7 @@ First, clone this repository to your desired location in the PC using the follow
 git clone https://github.com/LoginRadius/engineering-blog-samples.git
 ```
 
-The root folder contains the language specific folder for code samples. You can browse to particular directory and access the code sample as per your need
+The root folder contains the language specific folder for code samples. You can browse to particular directory and can access the code sample as per your need.
 
 <b>For example</b>
 
@@ -44,8 +44,7 @@ Now, if you want to check with sample how to create Rest API in Deno, please mov
 cd  RestAPIWithDeno
 
 ```
-
-Here you can find the instructions to run that sample project in Deno.
+Instructions to run that sample project in Deno.
 
 <h2 id="license">License</h2>
 
