@@ -1,6 +1,6 @@
 ### Password Hashing in NodeJS using Bcrypt
 
-##### This is the code repository for the blog post published on [LoginRadius Engineering Blog](https://www.loginradius.com/blog/async/creating-a-node-server-using-node-http-module/).
+##### This is the code repository for the blog post published on [LoginRadius Engineering Blog](https://www.loginradius.com/blog/async/node-http-module-server/).
 
 #### Prerequisites
 
