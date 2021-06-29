@@ -1,0 +1,100 @@
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\appsettings.Development.json
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\appsettings.json
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.exe
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.deps.json
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.runtimeconfig.json
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.runtimeconfig.dev.json
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\ref\AzureKeyVaultDemo.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.pdb
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.Views.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.Views.pdb
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Azure.Core.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Azure.Identity.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Extensions.Azure.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\System.Memory.Data.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.csproj.AssemblyReference.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.AssemblyInfoInputs.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.AssemblyInfo.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.csproj.CoreCompileInputs.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.MvcApplicationPartsAssemblyInfo.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorAssemblyInfo.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorAssemblyInfo.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\staticwebassets\AzureKeyVaultDemo.StaticWebAssets.Manifest.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\staticwebassets\AzureKeyVaultDemo.StaticWebAssets.xml
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\scopedcss\bundle\AzureKeyVaultDemo.styles.css
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.TagHelpers.input.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.TagHelpers.output.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorCoreGenerate.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorTargetAssemblyInfo.cache
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorTargetAssemblyInfo.cs
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.Views.pdb
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.csproj.CopyComplete
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\ref\AzureKeyVaultDemo.dll
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.pdb
+C:\Workarea\Important Files and Folders\Articles\LoginRadius\Source\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.genruntimeconfig.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\appsettings.Development.json
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\appsettings.json
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.exe
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.deps.json
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.runtimeconfig.json
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.runtimeconfig.dev.json
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\ref\AzureKeyVaultDemo.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.pdb
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.Views.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\AzureKeyVaultDemo.Views.pdb
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Azure.Core.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Azure.Identity.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Extensions.Azure.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\System.Memory.Data.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.csproj.AssemblyReference.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.AssemblyInfoInputs.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.AssemblyInfo.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.csproj.CoreCompileInputs.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.MvcApplicationPartsAssemblyInfo.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorAssemblyInfo.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorAssemblyInfo.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\staticwebassets\AzureKeyVaultDemo.StaticWebAssets.Manifest.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\staticwebassets\AzureKeyVaultDemo.StaticWebAssets.xml
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\scopedcss\bundle\AzureKeyVaultDemo.styles.css
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.TagHelpers.input.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.TagHelpers.output.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorCoreGenerate.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorTargetAssemblyInfo.cache
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.RazorTargetAssemblyInfo.cs
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.Views.pdb
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.csproj.CopyComplete
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\ref\AzureKeyVaultDemo.dll
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.pdb
+C:\Workarea\Articles\LoginRadius\source-code\engineering-blog-samples\AspDotNetCore\AzureKeyVaultDemo\obj\Debug\net5.0\AzureKeyVaultDemo.genruntimeconfig.cache
