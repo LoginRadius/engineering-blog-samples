@@ -42,12 +42,12 @@ Then open Viewcontroller.swift. Define below 2 functions in it.
         alert.addAction(UIAlertAction(title: "dismis", style: .cancel, handler:{ (UIAlertAction)in
             print("User click Dismiss button")
         }))
-        
+
         self.present(alert, animated: true, completion: {
             print("completion block")
         })
     }
- 
+
   //  ============================= //
  
     // this is to share file //
