@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 
-contract PG{
+contract Hostel{
     address payable tenant;
     address payable landlord;
     uint public no_of_rooms = 0;
