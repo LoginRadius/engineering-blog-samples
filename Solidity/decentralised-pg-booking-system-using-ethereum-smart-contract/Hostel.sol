@@ -92,13 +92,13 @@ contract Hostel{
     modifier AgreementTimesUp(uint _index) {
         uint _AgreementNo = Room_by_No[_index].agreementid;
         uint time = RoomAgreement_by_No[_AgreementNo].timestamp + RoomAgreement_by_No[_AgreementNo].lockInPeriod;
-        require(now > time, "Times left for contract to end");
+        require(now > time, "Time is left for contract to end");
         _;
     }
     
     modifier RentTimesUp(uint _index) {
         uint time = Room_by_No[_index].timestamp + 30 days;
-        require(now == time, "Time left to pay Rent");
+        require(now >= time, "Time left to pay Rent");
         _;
     }
 
@@ -149,7 +149,7 @@ contract Hostel{
         _Tenant.transfer(_securitydeposit);
     }
     
-    function agreementTerminated(uint _index, uint _terminateno) public onlyLandlord(_index) AgreementTimesLeft(_index){
+    function agreementTerminated(uint _index) public onlyLandlord(_index) AgreementTimesLeft(_index){
         require(msg.sender != address(0));
         Room_by_No[_index].vacant = true;
     }
