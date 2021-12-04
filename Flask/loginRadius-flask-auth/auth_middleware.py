@@ -1,7 +1,7 @@
-import jwt
 from functools import wraps
+import jwt
 from flask import request, abort
-from app import app as current_app
+from flask import app as current_app
 import models
 
 def token_required(f):
@@ -10,9 +10,9 @@ def token_required(f):
         token = None
         if "Authorization" in request.headers:
             token = request.headers["Authorization"].split(" ")[1]
-        if not token: 
+        if not token:
             return {
-                "message": "Token is missing!",
+                "message": "Authentication Token is missing!",
                 "data": None,
                 "error": "Unauthorized"
             }, 401
@@ -21,7 +21,7 @@ def token_required(f):
             current_user=models.User().get_by_id(data["user_id"])
             if current_user is None:
                 return {
-                "message": "Invalid Token!",
+                "message": "Invalid Authentication token!",
                 "data": None,
                 "error": "Unauthorized"
             }, 401

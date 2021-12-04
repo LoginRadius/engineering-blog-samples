@@ -1,8 +1,8 @@
+import jwt
+from flask import Flask, request, jsonify
 from bson.objectid import ObjectId
 from save_image import save_pic
-import jwt
 from validate import validate_book, validate_email_and_password, validate_user
-from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret'
@@ -24,15 +24,16 @@ def add_user():
                 "data": None,
                 "error": "Bad request"
             }, 400
-        if not validate_user(**user):
-            return dict(message='Invalid data', data=None, error=""), 400
+        is_validated = validate_user(**user)
+        if is_validated is not True:
+            return dict(message='Invalid data', data=None, error=is_validated), 400
         user = User().create(**user)
         if not user:
             return {
                 "message": "User already exists",
                 "error": "Conflict",
                 "data": None
-            }
+            }, 409
         return {
             "message": "Successfully created new user",
             "data": user
@@ -55,17 +56,21 @@ def login():
                 "error": "Bad request"
             }, 400
         # validate input
-        if not validate_email_and_password(**data):
-            return dict(message='Invalid data', data=None), 400
+        is_validated = validate_email_and_password(**data)
+        if is_validated is not True:
+            return dict(message='Invalid data', data=None, error=is_validated), 400
         user = User().login(
-            data["email"], 
+            data["email"],
             data["password"]
         )
         if user:
             try:
+                # token should expire after 24 hrs
                 user["token"] = jwt.encode(
                     {"user_id": user["_id"]},
-                    app.config["SECRET_KEY"]
+                    app.config["SECRET_KEY"],
+                    algorithm="HS256",
+                    expires_delta=24 * 60 * 60
                 )
                 return {
                     "message": "Successfully fetched auth token",
@@ -154,11 +159,12 @@ def add_book(current_user):
             }, 400
 
         book["image_url"] = request.host_url+"static/books/"+save_pic(request.files["cover_image"])
-        if not validate_book(**book, user_id=ObjectId(current_user["_id"])):
+        is_validated = validate_book(**book)
+        if is_validated is not True:
             return {
                 "message": "Invalid data",
                 "data": None,
-                "error": "Bad Request"
+                "error": is_validated
             }, 400
         book = Books().create(**book, user_id=current_user["_id"])
         if not book:
@@ -177,7 +183,7 @@ def add_book(current_user):
             "error": str(e),
             "data": None
         }), 500
-    
+
 @app.route("/books/", methods=["GET"])
 @token_required
 def get_books(current_user):

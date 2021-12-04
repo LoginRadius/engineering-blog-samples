@@ -1,49 +1,93 @@
-from bson.objectid import ObjectId
+"""Validator Module"""
 import re
+from bson.objectid import ObjectId
 
 def validate(data, regex):
+    """Custom Validator"""
     return True if re.match(regex, data) else False
 
 def validate_password(password: str):
+    """Password Validator"""
     reg = r"\b^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!#%*?&]{8,20}$\b"
     return validate(password, reg)
 
 def validate_email(email: str):
+    """Email Validator"""
     regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
     return validate(email, regex)
 
 def validate_book(**args):
-    if not args.get('title') or not args.get('image_url') or not args.get('category') or not args.get('user_id'):
-        return
+    """Book Validator"""
+    if not args.get('title') or not args.get('image_url') \
+        or not args.get('category') or not args.get('user_id'):
+        return {
+            'title': 'Title is required',
+            'image_url': 'Image URL is required',
+            'category': 'Category is required',
+            'user_id': 'User ID is required'
+        }
     if args.get('category') not in ['romance', 'peotry', 'politics' 'picture book', 'science', 'fantasy', 'horror', 'thriller']:
-        return
-    if type(args.get('user_id')) != ObjectId:
-        return  
-    if type(args.get('title')) != str or type(args.get('description')) != str \
-        or type(args.get('image_url')) != str:
-        return
+        return {
+            'status': 'error',
+            'message': 'Invalid category'
+        }
+    try:
+        ObjectId(args.get('user_id'))
+    except:
+        return {
+            'user_id': 'User ID must be valid'
+        }
+    if not isinstance(args.get('title'), str) or not isinstance(args.get('description'), str) \
+        or not isinstance(args.get('image_url'), str):
+        return {
+            'title': 'Title must be a string',
+            'description': 'Description must be a string',
+            'image_url': 'Image URL must be a string'
+        }
     return True
 
 def validate_user(**args):
+    """User Validator"""
     if  not args.get('email') or not args.get('password') or not args.get('name'):
-        return
-    if type(args.get('name')) != str or type(args.get('email')) != str or type(args.get('password')) != str:
-        return
+        return {
+            'email': 'Email is required',
+            'password': 'Password is required',
+            'name': 'Name is required'
+        }
+    if isinstance(args.get('name'), str) or \
+        isinstance(args.get('email'), str) or isinstance(args.get('password'), str):
+        return {
+            'email': 'Email must be a string',
+            'password': 'Password must be a string',
+            'name': 'Name must be a string'
+        }
     if not validate_email(args.get('email')):
-        return
+        return {
+            'email': 'Email is invalid'
+        }
     if not validate_password(args.get('password')):
-        return
-    if not ( 2 <= len(args['name'].split(' ')) <= 3):
-        return
+        return {
+            'password': 'Password is invalid'
+        }
+    if not 2 <= len(args['name'].split(' ')) <= 30:
+        return {
+            'name': 'Name must be between 2 and 30 words'
+        }
     return True
 
-def validate_email_and_password(email, password, **args):
+def validate_email_and_password(email, password):
+    """Email and Password Validator"""
     if not (email and password):
-        return False
+        return {
+            'email': 'Email is required',
+            'password': 'Password is required'
+        }
     if not validate_email(email):
-        return False
+        return {
+            'email': 'Email is invalid'
+        }
     if not validate_password(password):
-        return False
+        return {
+            'password': 'Password is invalid'
+        }
     return True
-
-    
