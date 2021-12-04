@@ -54,8 +54,8 @@ def validate_user(**args):
             'password': 'Password is required',
             'name': 'Name is required'
         }
-    if isinstance(args.get('name'), str) or \
-        isinstance(args.get('email'), str) or isinstance(args.get('password'), str):
+    if not isinstance(args.get('name'), str) or \
+        not isinstance(args.get('email'), str) or not isinstance(args.get('password'), str):
         return {
             'email': 'Email must be a string',
             'password': 'Password must be a string',

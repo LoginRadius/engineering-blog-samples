@@ -122,6 +122,7 @@ class User:
         if not user:
             return
         user["_id"] = str(user["_id"])
+        user.pop("password")
         return user
 
     def get_by_email(self, email):
@@ -170,5 +171,6 @@ class User:
         """Login a user"""
         user = self.get_by_email(email)
         if not user or not check_password_hash(user["password"], password):
-            return user
+            return
+        user.pop("password")
         return user

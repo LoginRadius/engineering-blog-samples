@@ -55,7 +55,7 @@ def login():
                 "error": "Bad request"
             }, 400
         # validate input
-        is_validated = validate_email_and_password(**data)
+        is_validated = validate_email_and_password(data.get('email'), data.get('password'))
         if is_validated is not True:
             return dict(message='Invalid data', data=None, error=is_validated), 400
         user = User().login(
@@ -68,8 +68,7 @@ def login():
                 user["token"] = jwt.encode(
                     {"user_id": user["_id"]},
                     app.config["SECRET_KEY"],
-                    algorithm="HS256",
-                    expires_delta=24 * 60 * 60
+                    algorithm="HS256"
                 )
                 return {
                     "message": "Successfully fetched auth token",
@@ -97,7 +96,7 @@ def login():
 @token_required
 def get_current_user(current_user):
     return jsonify({
-        "message": "successfully retrieved a user",
+        "message": "successfully retrieved user profile",
         "data": current_user
     })
 
@@ -269,6 +268,22 @@ def delete_book(current_user, book_id):
             "error": str(e),
             "data": None
         }), 400
+
+@app.errorhandler(403)
+def forbidden(e):
+    return jsonify({
+        "message": "Forbidden",
+        "error": str(e),
+        "data": None
+    }), 403
+
+@app.errorhandler(404)
+def forbidden(e):
+    return jsonify({
+        "message": "Endpoint Not Found",
+        "error": str(e),
+        "data": None
+    }), 404
 
 
 if __name__ == "__main__":
