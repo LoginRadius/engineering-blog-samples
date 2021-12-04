@@ -67,7 +67,8 @@ def validate_user(**args):
         }
     if not validate_password(args.get('password')):
         return {
-            'password': 'Password is invalid'
+            'password': 'Password is invalid, Should be atleast 8 characters with \
+                upper and lower case letters, numbers and special characters'
         }
     if not 2 <= len(args['name'].split(' ')) <= 30:
         return {
@@ -88,6 +89,7 @@ def validate_email_and_password(email, password):
         }
     if not validate_password(password):
         return {
-            'password': 'Password is invalid'
+            'password': 'Password is invalid, Should be atleast 8 characters with \
+                upper and lower case letters, numbers and special characters'
         }
     return True
