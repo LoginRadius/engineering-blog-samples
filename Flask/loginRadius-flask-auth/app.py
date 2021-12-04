@@ -1,6 +1,5 @@
 import jwt
 from flask import Flask, request, jsonify
-from bson.objectid import ObjectId
 from save_image import save_pic
 from validate import validate_book, validate_email_and_password, validate_user
 
