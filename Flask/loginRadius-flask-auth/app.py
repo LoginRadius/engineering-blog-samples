@@ -200,7 +200,7 @@ def get_books(current_user):
 
 @app.route("/books/<book_id>", methods=["GET"])
 @token_required
-def get_book(current_user, book_id):
+def get_book(book_id):
     try:
         book = Books().get_by_id(book_id)
         if not book:
