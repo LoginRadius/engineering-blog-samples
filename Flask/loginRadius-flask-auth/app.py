@@ -1,10 +1,10 @@
-import jwt
+import jwt, os
 from flask import Flask, request, jsonify
 from save_image import save_pic
 from validate import validate_book, validate_email_and_password, validate_user
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secret'
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or 'this is a secret'
 
 from models import Books, User
 from auth_middleware import token_required
