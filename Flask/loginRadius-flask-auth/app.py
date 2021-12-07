@@ -1,10 +1,15 @@
 import jwt, os
+from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from save_image import save_pic
 from validate import validate_book, validate_email_and_password, validate_user
 
+load_dotenv()
+
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or 'this is a secret'
+SECRET_KEY = os.environ.get('SECRET_KEY') or 'this is a secret'
+print(SECRET_KEY)
+app.config['SECRET_KEY'] = SECRET_KEY
 
 from models import Books, User
 from auth_middleware import token_required
