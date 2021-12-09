@@ -1,0 +1,5 @@
+venv
+env
+.env
+*.pyc
+static/images/
