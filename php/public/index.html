@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Authorization using JWTs and PHP</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+  <main class="form-signin">
+    <form method="post" action="./authenticate.php" id="frmLogin">
+      <h1 class="h3 mb-3 fw-normal">Log In</h1>
+
+      <label for="inputEmail" class="visually-hidden">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address or username" required
+        autofocus>
+
+      <label for="inputPassword" class="visually-hidden">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+
+      <p class="mt-5 mb-3 text-muted">&copy; eSparkBiz 2021</p>
+    </form>
+
+    <button id="btnGetResource">Get Current Timestamp</button>
+  </main>
+
+  <script>
+    const storeJWT = {};
+    const loginBtn = document.querySelector('#frmLogin');
+    const btnGetResource = document.querySelector('#btnGetResource');
+    const formData = document.forms[0];
+
+    // Inserts the jwt to the store object
+    storeJWT.setJWT = function (data) {
+      this.JWT = data;
+    };
+
+    loginBtn.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const response = await fetch('./authenticate.php', {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
+        },
+        body: JSON.stringify({
+          username: formData.inputEmail.value,
+          password: formData.inputPassword.value
+        })
+      });
+
+      if (response.status >= 200 && response.status <= 299) {
+        const jwt = await response.text();
+        storeJWT.setJWT(jwt);
+        frmLogin.style.display = 'none';
+        btnGetResource.style.display = 'block';
+      } else {
+        // Handle errors
+        console.log(response.status, response.statusText);
+      }
+    });
+
+    btnGetResource.addEventListener('click', async (e) => {
+      const res = await fetch('./resource.php', {
+        headers: {
+          'Authorization': `Bearer ${storeJWT.JWT}`
+        }
+      });
+      const timeStamp = await res.text();
+      console.log(timeStamp);
+    });
+  </script>
+</body>
+
+</html>
