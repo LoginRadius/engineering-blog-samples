@@ -1,6 +1,5 @@
 import { Box, Center, Heading } from "@chakra-ui/react";
 import { useLRAuth } from "loginradius-react";
-import { withAuthenticationRequired } from "loginradius-react";
 
 export default function Profile() {
   const { user, isAuthenticated, isLoading } = useLRAuth();
@@ -21,9 +20,3 @@ export default function Profile() {
     );
   }
 }
-
-// export default withAuthenticationRequired(Profile, {
-//   onRedirecting: () => (
-//     <div>Redirecting you to LoginRadius awesome Login page</div>
-//   ),
-// });
