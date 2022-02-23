@@ -1,13 +1,14 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { UserDto } from './dto/user.dto';
 import * as LRAuthPrrovider from 'loginradius-sdk'
-
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 let config = {
     apiDomain: "api.loginradius.com",
-    apiKey: "b85f093d-5748-4894-94ab-ebb6728321c0",
-    apiSecret: "daf70fb6-f6e7-45ac-b522-c67bb1f04587",
-    siteName: "vepumuviquvidapo",
+    apiKey: process.env.API_KEY,
+    apiSecret: process.env.API_SECRET,
+    siteName: process.env.APP_NAME,
     apiRequestSigning: false,
     proxy: {
       host: "",
@@ -19,8 +20,6 @@ let config = {
 let lrv2 = LRAuthPrrovider(config);
 
 let sott =   "f+i5dyE42VDAvmUwyroNBd9/JFKLmcr7WUU6pVnpXRVZn4TCRk+n7nFpWYZEVhWpGJbndPamPsnpdL1GVCS0PvpA6vmYZp4taiizh0vF6OA=*b2a8240af3974d03fe07e75f2f8f60e1"; //Required
-
-   
 
 @Injectable()
 export class AuthService {

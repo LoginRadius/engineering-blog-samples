@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
-    "@nestjs/config": "^1.1.6",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
+    "dotenv": "^16.0.0",
     "loginradius-sdk": "^11.3.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
