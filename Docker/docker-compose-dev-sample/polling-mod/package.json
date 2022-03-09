@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.745.0",
+    "aws-sdk": "^2.814.0",
     "mongoose": "^5.10.2",
     "nodemon": "^2.0.4",
     "sqs-consumer": "^5.4.0"
