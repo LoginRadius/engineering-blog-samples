@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: #F8F8F8;
+  padding: 100px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  font-size: 96px;
+  margin-bottom: 20px;
+}
+
+input{
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 60px;
+  width: 400px;
+  font-size: 24px; 
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+button{
+  height: 65px;
+  width: 150px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  font-size: 24px;
+  padding: 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  cursor: pointer;
+  font-weight: 600;
+  background:#2e3136;
+  color:#fff;
+}
+
+p{
+  height: 60px;
+  background: white;
+  width: 600px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 24px;
+  margin: 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+p:hover{
+  background: rgb(232, 169, 146);
+  color:#fff;
+  cursor: pointer;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
