@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+
+<body>
+  <h1>Verify Page</h1>
+  <p class="message">Enter your OTP</p>
+  <form>
+    <input type="number" class="OTP" />
+    <input type="submit" value="submit" class="submit" />
+  </form>
+  <script>
+    const form = document.querySelector('form')
+    const OTP = document.querySelector('.OTP')
+    const message = document.querySelector('.message')
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault()
+      const data = { OTP: OTP.value }
+      await fetch("/verify", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        redirect: "follow",
+        body: JSON.stringify(data),
+      }).then(async(res) => {
+        if(!res.ok){
+          const data = await res.json()
+          OTP.value = ''
+          return message.textContent = data.message
+        }
+        if (res.redirected) location.href = res.url
+      }).catch((e) => {
+          OTP.value = ''
+          console.log(e.message)
+        });
+    })
+  </script>
+</body>
+
+</html>

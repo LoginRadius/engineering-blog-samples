@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+
+<body>
+  <h1>Login Page</h1>
+  <p>Please Sign in</p>
+  <form>
+    <input type="email" class="email"/>
+    <input type="submit" value="submit" class="submit"/>
+  </form>
+  <script>
+    const form = document.querySelector('form')
+    const email = document.querySelector('.email')
+
+    form.addEventListener('submit', async(e)=> {
+      e.preventDefault()
+      const data = { email: email.value }
+      await fetch("/auth", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        redirect: "follow",
+        body: JSON.stringify(data),
+      }).then(res => {
+        if(res.redirected) location.href = res.url
+      })
+      .catch((e) => {
+          email.value = ''
+          console.log(e.message);
+        });
+
+    })
+  </script>
+</body>
+
+</html>
