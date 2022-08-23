@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#dde5f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:100px auto;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding:20px;
+  max-width:400px;
+  min-height:400px;
+  background:#f1f7fe;
+}
+
+.card h3.title{
+  font-size: 32px;
+}
+
+.card p.subtitle{
+  font-size: 14px;
+  margin-bottom:60px;
+  color:#4d4d4d;
+}
+
+.card p.subtitle a{
+  text-decoration: none;
+  color:#3e4684;
+  font-weight:500;
+}
+
+.card form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.card form input{
+  border:none;
+  margin-bottom:20px;
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 10px;
+  font-size:16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  color: #4d4d4d;
+  outline:none;
+}
+
+.card form button{
+  margin-top:10px;
+  padding: 15px 30px;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor:pointer;
+}
+
+.home{
+ width:100%;
+ text-align:center;
+ margin-top: 200px;
+  
+}
+
+.home p{
+  font-size: 20px;
+}
