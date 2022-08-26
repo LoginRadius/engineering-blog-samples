@@ -33,7 +33,7 @@
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "loginradius-sdk": "^11.3.0",
-    "mongoose": "^6.1.9",
+    "mongoose": "^6.4.6",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
     "reflect-metadata": "^0.1.13",
