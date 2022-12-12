@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cookie-session": "^1.4.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.1",
     "mongoose": "^5.9.12"
   }
