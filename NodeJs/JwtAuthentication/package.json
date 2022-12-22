@@ -22,7 +22,7 @@
     "bcrypt": "^4.0.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^4.13.20"
   }
 }
