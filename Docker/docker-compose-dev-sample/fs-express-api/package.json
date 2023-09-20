@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.745.0",
+    "aws-sdk": "^2.814.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.2"
   },
